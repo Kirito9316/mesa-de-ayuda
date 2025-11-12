@@ -1,0 +1,25 @@
+<form action="mailto:soporte@tudominio.com" method="post" enctype="text/plain">
+  <h2>Formulario de Solicitud de Soporte Técnico</h2>
+
+  <label for="nombre">Nombre completo:</label><br>
+  <input type="text" id="nombre" name="Nombre" required><br><br>
+
+  <label for="correo">Correo de contacto:</label><br>
+  <input type="email" id="correo" name="Correo" required><br><br>
+
+  <label for="area">Área o departamento:</label><br>
+  <input type="text" id="area" name="Área"><br><br>
+
+  <label for="urgencia">Nivel de urgencia:</label><br>
+  <select id="urgencia" name="Urgencia">
+    <option value="Baja">Baja</option>
+    <option value="Media">Media</option>
+    <option value="Alta">Alta</option>
+  </select><br><br>
+
+  <label for="descripcion">Descripción del problema:</label><br>
+  <textarea id="descripcion" name="Descripción" rows="5" cols="40" required></textarea><br><br>
+
+  <input type="submit" value="Enviar solicitud">
+  <input type="reset" value="Limpiar formulario">
+</form>
